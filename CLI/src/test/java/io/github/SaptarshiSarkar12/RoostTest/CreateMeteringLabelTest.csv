@@ -1,0 +1,2 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+post^|^/v2.0/metering/metering-labels^|^{}^|^{}^|^201^|^No response headers
