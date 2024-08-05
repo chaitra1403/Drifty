@@ -1,0 +1,2 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+delete^|^/v2.0/metering/metering-labels/{metering_label_id}^|^No response headers^|^{}^|^204^|^{}
