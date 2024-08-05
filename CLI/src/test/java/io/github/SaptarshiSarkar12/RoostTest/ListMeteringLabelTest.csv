@@ -1,0 +1,9 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+get^|^/v2.0/metering/metering-labels^|^{}^|^{}^|^200^|^{"description": "200 response", "headers": "No response headers"}
+post^|^/v2.0/metering/metering-labels^|^{}^|^{}^|^201^|^{"description": "201 response", "headers": "No response headers"}
+get^|^/v2.0/metering/metering-labels/{metering_label_id}^|^{}^|^{"metering_label_id": " string (in:path)(required)"}^|^200^|^{"description": "200 response", "headers": "No response headers"}
+delete^|^/v2.0/metering/metering-labels/{metering_label_id}^|^{}^|^{"metering_label_id": " string (in:path)(required)"}^|^204^|^{"description": "204 response", "headers": "No response headers"}
+get^|^/v2.0/metering/metering-label-rules^|^{}^|^{}^|^200^|^{"description": "200 response", "headers": "No response headers"}
+post^|^/v2.0/metering/metering-label-rules^|^{}^|^{}^|^201^|^{"description": "201 response", "headers": "No response headers"}
+get^|^/v2.0/metering/metering-label-rules/{metering-label-rule-id}^|^{}^|^{"metering-label-rule-id": " string (in:path)(required)"}^|^200^|^{"description": "200 response", "headers": "No response headers"}
+delete^|^/v2.0/metering/metering-label-rules/{metering-label-rule-id}^|^{}^|^{"metering-label-rule-id": " string (in:path)(required)"}^|^204^|^{"description": "204 response", "headers": "No response headers"}
